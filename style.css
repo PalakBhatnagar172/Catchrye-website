@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border_box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+    background-color: #1137ca;
+}
+#page1{
+    height: 100vh;
+    width:100vw;
+    background-color: #0b48ed;
+    position: relative;
+}
+video{
+    height: 100%;
+    width: 100%;
+ 
+}
+nav{
+    height: 10vh;
+    width: 100vw;
+    /* background-color: red; */
+    position: absolute;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+img{
+    width: 15%;
+    margin-top: -1.7vw;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #0b48ed;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: a;
+    font-size: 15px;
+}
+.bottom-page1{
+    position: absolute;
+    height: 40vh;
+    bottom: 10%;
+    left: 10%;
+    width: 50vw;
+}
+
+h1{
+    font-family: a;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+    color: #fff
+
+}
+.bottom-page1-inner{
+    height: 35%;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    font-family: a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-page1-inner>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0b48ed;
+    font-family: b;
+    font-size: 16px;
+
+}
+.bottom-page1-inner>h3{
+    font-weight: 100;
+    color: #fff
+}
+#page2{
+    display: flex;
+    align-items: start;
+    font-family: a;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vx;
+    /* background-color: red; */
+    position: relative;
+    padding: 0vw 8vw;
+    color: #fff;
+    background-color: #0a3cce;
+}
+#page2>h3{
+    font-weight: 100;
+    margin-bottom: 3vw;
+
+}
+#page2>h1{
+    width: 90%;
+    line-height: 1.3;
+    font-size: 4vw;
+    font-weight: 100;
+    color:#dadada69
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+} 
+#page3>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+#page4{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1137ca;
+}
